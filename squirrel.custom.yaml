@@ -1,0 +1,17 @@
+patch:
+  style:
+    horizontal: true
+    font_face: "PingFangSC"
+    font_point: 20
+    color_scheme: mojave_dark
+    corner_radius: 5
+    hilited_corner_radius: 4
+    border_height: 2
+    border_width: 2
+  schema_list:
+  - schema: wubi_pinyin
+  - schema: luna_pinyin_simp
+  app_options:
+    com.apple.dt.Xcode:
+      ascii_mode: false
+
